@@ -288,7 +288,12 @@ def main() -> int:
         mode = state["mode"]
         if mode == "idle":
             state["index"] = (state["index"] + 1) % len(idle_frames)
-            area.queue_draw()
+            area.queue_draw_area(
+                max(0, int(state["x"])),
+                max(0, int(state["y"])),
+                canvas_w,
+                canvas_h,
+            )
             return True
 
         if mode == "web_shooting":
