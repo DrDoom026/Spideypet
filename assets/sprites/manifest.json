@@ -1,0 +1,927 @@
+{
+  "source": "SpiderMan_HeadTurn.png",
+  "source_size": [
+    2048,
+    43
+  ],
+  "frame_count": 76,
+  "frame_canvas": [
+    27,
+    43
+  ],
+  "method": "Detected contiguous non-transparent column runs separated by fully transparent gutters; each frame centered on a shared transparent canvas.",
+  "frames": [
+    {
+      "index": 1,
+      "file": "assets/sprites/head_turn/frame_001.png",
+      "source_x": [
+        1,
+        25
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 2,
+      "file": "assets/sprites/head_turn/frame_002.png",
+      "source_x": [
+        28,
+        52
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 3,
+      "file": "assets/sprites/head_turn/frame_003.png",
+      "source_x": [
+        55,
+        79
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 4,
+      "file": "assets/sprites/head_turn/frame_004.png",
+      "source_x": [
+        82,
+        106
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 5,
+      "file": "assets/sprites/head_turn/frame_005.png",
+      "source_x": [
+        109,
+        133
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 6,
+      "file": "assets/sprites/head_turn/frame_006.png",
+      "source_x": [
+        136,
+        160
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 7,
+      "file": "assets/sprites/head_turn/frame_007.png",
+      "source_x": [
+        163,
+        187
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 8,
+      "file": "assets/sprites/head_turn/frame_008.png",
+      "source_x": [
+        190,
+        213
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 9,
+      "file": "assets/sprites/head_turn/frame_009.png",
+      "source_x": [
+        217,
+        240
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 10,
+      "file": "assets/sprites/head_turn/frame_010.png",
+      "source_x": [
+        244,
+        267
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 11,
+      "file": "assets/sprites/head_turn/frame_011.png",
+      "source_x": [
+        271,
+        294
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 12,
+      "file": "assets/sprites/head_turn/frame_012.png",
+      "source_x": [
+        298,
+        321
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 13,
+      "file": "assets/sprites/head_turn/frame_013.png",
+      "source_x": [
+        324,
+        348
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 14,
+      "file": "assets/sprites/head_turn/frame_014.png",
+      "source_x": [
+        351,
+        375
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 15,
+      "file": "assets/sprites/head_turn/frame_015.png",
+      "source_x": [
+        378,
+        402
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 16,
+      "file": "assets/sprites/head_turn/frame_016.png",
+      "source_x": [
+        405,
+        429
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 17,
+      "file": "assets/sprites/head_turn/frame_017.png",
+      "source_x": [
+        432,
+        456
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 18,
+      "file": "assets/sprites/head_turn/frame_018.png",
+      "source_x": [
+        459,
+        483
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 19,
+      "file": "assets/sprites/head_turn/frame_019.png",
+      "source_x": [
+        486,
+        510
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 20,
+      "file": "assets/sprites/head_turn/frame_020.png",
+      "source_x": [
+        513,
+        537
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 21,
+      "file": "assets/sprites/head_turn/frame_021.png",
+      "source_x": [
+        540,
+        564
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 22,
+      "file": "assets/sprites/head_turn/frame_022.png",
+      "source_x": [
+        567,
+        591
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 23,
+      "file": "assets/sprites/head_turn/frame_023.png",
+      "source_x": [
+        594,
+        618
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 24,
+      "file": "assets/sprites/head_turn/frame_024.png",
+      "source_x": [
+        621,
+        645
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 25,
+      "file": "assets/sprites/head_turn/frame_025.png",
+      "source_x": [
+        648,
+        672
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 26,
+      "file": "assets/sprites/head_turn/frame_026.png",
+      "source_x": [
+        675,
+        699
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 27,
+      "file": "assets/sprites/head_turn/frame_027.png",
+      "source_x": [
+        702,
+        725
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 28,
+      "file": "assets/sprites/head_turn/frame_028.png",
+      "source_x": [
+        729,
+        752
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 29,
+      "file": "assets/sprites/head_turn/frame_029.png",
+      "source_x": [
+        756,
+        779
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 30,
+      "file": "assets/sprites/head_turn/frame_030.png",
+      "source_x": [
+        783,
+        806
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 31,
+      "file": "assets/sprites/head_turn/frame_031.png",
+      "source_x": [
+        810,
+        833
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 32,
+      "file": "assets/sprites/head_turn/frame_032.png",
+      "source_x": [
+        836,
+        860
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 33,
+      "file": "assets/sprites/head_turn/frame_033.png",
+      "source_x": [
+        863,
+        887
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 34,
+      "file": "assets/sprites/head_turn/frame_034.png",
+      "source_x": [
+        890,
+        914
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 35,
+      "file": "assets/sprites/head_turn/frame_035.png",
+      "source_x": [
+        917,
+        941
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 36,
+      "file": "assets/sprites/head_turn/frame_036.png",
+      "source_x": [
+        944,
+        968
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 37,
+      "file": "assets/sprites/head_turn/frame_037.png",
+      "source_x": [
+        971,
+        995
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 38,
+      "file": "assets/sprites/head_turn/frame_038.png",
+      "source_x": [
+        998,
+        1022
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 39,
+      "file": "assets/sprites/head_turn/frame_039.png",
+      "source_x": [
+        1025,
+        1049
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 40,
+      "file": "assets/sprites/head_turn/frame_040.png",
+      "source_x": [
+        1052,
+        1076
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 41,
+      "file": "assets/sprites/head_turn/frame_041.png",
+      "source_x": [
+        1079,
+        1103
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 42,
+      "file": "assets/sprites/head_turn/frame_042.png",
+      "source_x": [
+        1106,
+        1130
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 43,
+      "file": "assets/sprites/head_turn/frame_043.png",
+      "source_x": [
+        1133,
+        1157
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 44,
+      "file": "assets/sprites/head_turn/frame_044.png",
+      "source_x": [
+        1160,
+        1184
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 45,
+      "file": "assets/sprites/head_turn/frame_045.png",
+      "source_x": [
+        1187,
+        1211
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 46,
+      "file": "assets/sprites/head_turn/frame_046.png",
+      "source_x": [
+        1214,
+        1237
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 47,
+      "file": "assets/sprites/head_turn/frame_047.png",
+      "source_x": [
+        1241,
+        1264
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 48,
+      "file": "assets/sprites/head_turn/frame_048.png",
+      "source_x": [
+        1268,
+        1291
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 49,
+      "file": "assets/sprites/head_turn/frame_049.png",
+      "source_x": [
+        1295,
+        1318
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 50,
+      "file": "assets/sprites/head_turn/frame_050.png",
+      "source_x": [
+        1322,
+        1345
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 51,
+      "file": "assets/sprites/head_turn/frame_051.png",
+      "source_x": [
+        1348,
+        1372
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 52,
+      "file": "assets/sprites/head_turn/frame_052.png",
+      "source_x": [
+        1375,
+        1399
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 53,
+      "file": "assets/sprites/head_turn/frame_053.png",
+      "source_x": [
+        1402,
+        1426
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 54,
+      "file": "assets/sprites/head_turn/frame_054.png",
+      "source_x": [
+        1429,
+        1453
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 55,
+      "file": "assets/sprites/head_turn/frame_055.png",
+      "source_x": [
+        1456,
+        1480
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 56,
+      "file": "assets/sprites/head_turn/frame_056.png",
+      "source_x": [
+        1483,
+        1507
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 57,
+      "file": "assets/sprites/head_turn/frame_057.png",
+      "source_x": [
+        1510,
+        1534
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 58,
+      "file": "assets/sprites/head_turn/frame_058.png",
+      "source_x": [
+        1537,
+        1561
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 59,
+      "file": "assets/sprites/head_turn/frame_059.png",
+      "source_x": [
+        1564,
+        1588
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 60,
+      "file": "assets/sprites/head_turn/frame_060.png",
+      "source_x": [
+        1591,
+        1615
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 61,
+      "file": "assets/sprites/head_turn/frame_061.png",
+      "source_x": [
+        1618,
+        1642
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 62,
+      "file": "assets/sprites/head_turn/frame_062.png",
+      "source_x": [
+        1645,
+        1669
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 63,
+      "file": "assets/sprites/head_turn/frame_063.png",
+      "source_x": [
+        1672,
+        1696
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 64,
+      "file": "assets/sprites/head_turn/frame_064.png",
+      "source_x": [
+        1699,
+        1723
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 65,
+      "file": "assets/sprites/head_turn/frame_065.png",
+      "source_x": [
+        1726,
+        1749
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 66,
+      "file": "assets/sprites/head_turn/frame_066.png",
+      "source_x": [
+        1753,
+        1776
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 67,
+      "file": "assets/sprites/head_turn/frame_067.png",
+      "source_x": [
+        1780,
+        1803
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 68,
+      "file": "assets/sprites/head_turn/frame_068.png",
+      "source_x": [
+        1807,
+        1830
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 69,
+      "file": "assets/sprites/head_turn/frame_069.png",
+      "source_x": [
+        1834,
+        1857
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 70,
+      "file": "assets/sprites/head_turn/frame_070.png",
+      "source_x": [
+        1860,
+        1884
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 71,
+      "file": "assets/sprites/head_turn/frame_071.png",
+      "source_x": [
+        1887,
+        1911
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 72,
+      "file": "assets/sprites/head_turn/frame_072.png",
+      "source_x": [
+        1914,
+        1938
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 73,
+      "file": "assets/sprites/head_turn/frame_073.png",
+      "source_x": [
+        1941,
+        1965
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 74,
+      "file": "assets/sprites/head_turn/frame_074.png",
+      "source_x": [
+        1968,
+        1992
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 75,
+      "file": "assets/sprites/head_turn/frame_075.png",
+      "source_x": [
+        1995,
+        2019
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    },
+    {
+      "index": 76,
+      "file": "assets/sprites/head_turn/frame_076.png",
+      "source_x": [
+        2022,
+        2046
+      ],
+      "canvas": [
+        27,
+        43
+      ]
+    }
+  ]
+}

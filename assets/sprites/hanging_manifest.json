@@ -1,0 +1,940 @@
+{
+  "source": "SpiderMan_web.png",
+  "source_size": [
+    2048,
+    40
+  ],
+  "source_mode": "RGBA",
+  "frame_count": 77,
+  "frame_canvas": [
+    27,
+    40
+  ],
+  "method": "Detected contiguous non-transparent column runs separated by fully transparent gutters; each frame centered on a shared transparent canvas. Source sheet preserved unchanged.",
+  "frames": [
+    {
+      "index": 1,
+      "file": "assets/sprites/hanging/frame_001.png",
+      "source_x": [
+        1,
+        25
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 2,
+      "file": "assets/sprites/hanging/frame_002.png",
+      "source_x": [
+        28,
+        51
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 3,
+      "file": "assets/sprites/hanging/frame_003.png",
+      "source_x": [
+        54,
+        78
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 4,
+      "file": "assets/sprites/hanging/frame_004.png",
+      "source_x": [
+        81,
+        104
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 5,
+      "file": "assets/sprites/hanging/frame_005.png",
+      "source_x": [
+        107,
+        131
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 6,
+      "file": "assets/sprites/hanging/frame_006.png",
+      "source_x": [
+        134,
+        158
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 7,
+      "file": "assets/sprites/hanging/frame_007.png",
+      "source_x": [
+        161,
+        184
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 8,
+      "file": "assets/sprites/hanging/frame_008.png",
+      "source_x": [
+        187,
+        211
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 9,
+      "file": "assets/sprites/hanging/frame_009.png",
+      "source_x": [
+        214,
+        237
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 10,
+      "file": "assets/sprites/hanging/frame_010.png",
+      "source_x": [
+        240,
+        264
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 11,
+      "file": "assets/sprites/hanging/frame_011.png",
+      "source_x": [
+        267,
+        291
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 12,
+      "file": "assets/sprites/hanging/frame_012.png",
+      "source_x": [
+        294,
+        317
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 13,
+      "file": "assets/sprites/hanging/frame_013.png",
+      "source_x": [
+        320,
+        344
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 14,
+      "file": "assets/sprites/hanging/frame_014.png",
+      "source_x": [
+        347,
+        370
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 15,
+      "file": "assets/sprites/hanging/frame_015.png",
+      "source_x": [
+        373,
+        397
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 16,
+      "file": "assets/sprites/hanging/frame_016.png",
+      "source_x": [
+        400,
+        424
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 17,
+      "file": "assets/sprites/hanging/frame_017.png",
+      "source_x": [
+        427,
+        450
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 18,
+      "file": "assets/sprites/hanging/frame_018.png",
+      "source_x": [
+        453,
+        477
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 19,
+      "file": "assets/sprites/hanging/frame_019.png",
+      "source_x": [
+        480,
+        503
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 20,
+      "file": "assets/sprites/hanging/frame_020.png",
+      "source_x": [
+        506,
+        530
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 21,
+      "file": "assets/sprites/hanging/frame_021.png",
+      "source_x": [
+        533,
+        557
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 22,
+      "file": "assets/sprites/hanging/frame_022.png",
+      "source_x": [
+        560,
+        583
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 23,
+      "file": "assets/sprites/hanging/frame_023.png",
+      "source_x": [
+        586,
+        610
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 24,
+      "file": "assets/sprites/hanging/frame_024.png",
+      "source_x": [
+        613,
+        636
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 25,
+      "file": "assets/sprites/hanging/frame_025.png",
+      "source_x": [
+        639,
+        663
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 26,
+      "file": "assets/sprites/hanging/frame_026.png",
+      "source_x": [
+        666,
+        690
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 27,
+      "file": "assets/sprites/hanging/frame_027.png",
+      "source_x": [
+        693,
+        716
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 28,
+      "file": "assets/sprites/hanging/frame_028.png",
+      "source_x": [
+        719,
+        743
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 29,
+      "file": "assets/sprites/hanging/frame_029.png",
+      "source_x": [
+        746,
+        769
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 30,
+      "file": "assets/sprites/hanging/frame_030.png",
+      "source_x": [
+        772,
+        796
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 31,
+      "file": "assets/sprites/hanging/frame_031.png",
+      "source_x": [
+        799,
+        823
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 32,
+      "file": "assets/sprites/hanging/frame_032.png",
+      "source_x": [
+        825,
+        849
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 33,
+      "file": "assets/sprites/hanging/frame_033.png",
+      "source_x": [
+        852,
+        876
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 34,
+      "file": "assets/sprites/hanging/frame_034.png",
+      "source_x": [
+        879,
+        902
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 35,
+      "file": "assets/sprites/hanging/frame_035.png",
+      "source_x": [
+        905,
+        929
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 36,
+      "file": "assets/sprites/hanging/frame_036.png",
+      "source_x": [
+        932,
+        956
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 37,
+      "file": "assets/sprites/hanging/frame_037.png",
+      "source_x": [
+        958,
+        982
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 38,
+      "file": "assets/sprites/hanging/frame_038.png",
+      "source_x": [
+        985,
+        1009
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 39,
+      "file": "assets/sprites/hanging/frame_039.png",
+      "source_x": [
+        1012,
+        1035
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 40,
+      "file": "assets/sprites/hanging/frame_040.png",
+      "source_x": [
+        1038,
+        1062
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 41,
+      "file": "assets/sprites/hanging/frame_041.png",
+      "source_x": [
+        1065,
+        1089
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 42,
+      "file": "assets/sprites/hanging/frame_042.png",
+      "source_x": [
+        1091,
+        1115
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 43,
+      "file": "assets/sprites/hanging/frame_043.png",
+      "source_x": [
+        1118,
+        1142
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 44,
+      "file": "assets/sprites/hanging/frame_044.png",
+      "source_x": [
+        1145,
+        1168
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 45,
+      "file": "assets/sprites/hanging/frame_045.png",
+      "source_x": [
+        1171,
+        1195
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 46,
+      "file": "assets/sprites/hanging/frame_046.png",
+      "source_x": [
+        1198,
+        1222
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 47,
+      "file": "assets/sprites/hanging/frame_047.png",
+      "source_x": [
+        1224,
+        1248
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 48,
+      "file": "assets/sprites/hanging/frame_048.png",
+      "source_x": [
+        1251,
+        1275
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 49,
+      "file": "assets/sprites/hanging/frame_049.png",
+      "source_x": [
+        1278,
+        1301
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 50,
+      "file": "assets/sprites/hanging/frame_050.png",
+      "source_x": [
+        1304,
+        1328
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 51,
+      "file": "assets/sprites/hanging/frame_051.png",
+      "source_x": [
+        1331,
+        1354
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 52,
+      "file": "assets/sprites/hanging/frame_052.png",
+      "source_x": [
+        1357,
+        1381
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 53,
+      "file": "assets/sprites/hanging/frame_053.png",
+      "source_x": [
+        1384,
+        1408
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 54,
+      "file": "assets/sprites/hanging/frame_054.png",
+      "source_x": [
+        1411,
+        1434
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 55,
+      "file": "assets/sprites/hanging/frame_055.png",
+      "source_x": [
+        1437,
+        1461
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 56,
+      "file": "assets/sprites/hanging/frame_056.png",
+      "source_x": [
+        1464,
+        1487
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 57,
+      "file": "assets/sprites/hanging/frame_057.png",
+      "source_x": [
+        1490,
+        1514
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 58,
+      "file": "assets/sprites/hanging/frame_058.png",
+      "source_x": [
+        1517,
+        1541
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 59,
+      "file": "assets/sprites/hanging/frame_059.png",
+      "source_x": [
+        1544,
+        1567
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 60,
+      "file": "assets/sprites/hanging/frame_060.png",
+      "source_x": [
+        1570,
+        1594
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 61,
+      "file": "assets/sprites/hanging/frame_061.png",
+      "source_x": [
+        1597,
+        1620
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 62,
+      "file": "assets/sprites/hanging/frame_062.png",
+      "source_x": [
+        1623,
+        1647
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 63,
+      "file": "assets/sprites/hanging/frame_063.png",
+      "source_x": [
+        1650,
+        1674
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 64,
+      "file": "assets/sprites/hanging/frame_064.png",
+      "source_x": [
+        1677,
+        1700
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 65,
+      "file": "assets/sprites/hanging/frame_065.png",
+      "source_x": [
+        1703,
+        1727
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 66,
+      "file": "assets/sprites/hanging/frame_066.png",
+      "source_x": [
+        1730,
+        1753
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 67,
+      "file": "assets/sprites/hanging/frame_067.png",
+      "source_x": [
+        1756,
+        1780
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 68,
+      "file": "assets/sprites/hanging/frame_068.png",
+      "source_x": [
+        1783,
+        1807
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 69,
+      "file": "assets/sprites/hanging/frame_069.png",
+      "source_x": [
+        1810,
+        1833
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 70,
+      "file": "assets/sprites/hanging/frame_070.png",
+      "source_x": [
+        1836,
+        1860
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 71,
+      "file": "assets/sprites/hanging/frame_071.png",
+      "source_x": [
+        1863,
+        1886
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 72,
+      "file": "assets/sprites/hanging/frame_072.png",
+      "source_x": [
+        1889,
+        1913
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 73,
+      "file": "assets/sprites/hanging/frame_073.png",
+      "source_x": [
+        1916,
+        1940
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 74,
+      "file": "assets/sprites/hanging/frame_074.png",
+      "source_x": [
+        1943,
+        1966
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 75,
+      "file": "assets/sprites/hanging/frame_075.png",
+      "source_x": [
+        1969,
+        1993
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 76,
+      "file": "assets/sprites/hanging/frame_076.png",
+      "source_x": [
+        1996,
+        2019
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    },
+    {
+      "index": 77,
+      "file": "assets/sprites/hanging/frame_077.png",
+      "source_x": [
+        2022,
+        2046
+      ],
+      "canvas": [
+        27,
+        40
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+"""SpiderPet desktop overlay."""
