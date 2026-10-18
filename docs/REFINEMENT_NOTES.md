@@ -1,13 +1,10 @@
-# SpiderPet refinement notes
+# SpiderPet implementation notes
 
-This update responds to the first live desktop test.
+- The supplied sprite sheets and extracted transparent frames remain unchanged on disk.
+- Runtime scaling uses nearest-neighbour/fast interpolation so the pixel art stays crisp.
+- Default scale is 1.75x; the idle animation defaults to 12 FPS and the hanging animation to 24 FPS.
+- The Linux branch uses GTK3 + GtkLayerShell for the transparent Wayland overlay.
+- The Windows branch uses PySide6 Essentials, with a small transparent sprite window and a narrow mouse-transparent web-line window. Win32 extended styles make the line window pass mouse input through to applications below it.
+- Both branches provide a draggable desktop pet, idle/head-turn animation, web shooting, descent, hanging, and ascent after a second click.
 
-- Default scale reduced from 2x to 1.75x; nearest-neighbour scaling remains in-memory only.
-- Idle/head-turn rate defaults to 12 FPS.
-- Hanging sequence defaults to 24 FPS.
-- Left-click and release (without meaningful movement) triggers hanging.
-- Left-button drag moves the pet by updating GtkLayerShell top/left margins.
-- The original sprite sheets and extracted frame files are not modified.
-- No walking, sitting, stats, menus, package installs, sudo, system config changes, or Git operations were added.
-
-Test on the user's Omarchy/Hyprland session. If Wayland compositor policy prevents runtime layer-shell margin repositioning, keep the original artwork intact and diagnose that behavior before changing the windowing approach.
+Windows runtime behavior still needs smoke testing on a Windows 10/11 desktop. In particular, verify the z-order of the two transparent windows, click-through behavior outside the pet, dragging across monitors, and startup from the batch launcher.

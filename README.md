@@ -1,56 +1,75 @@
-# SpiderPet — Living Sprite Prototype
+# SpiderPet — Desktop Sprite Pet
 
-A minimal transparent GTK3 + GtkLayerShell desktop pet for Omarchy/Hyprland on Wayland. This prototype uses the two sprite sheets exactly as supplied: the first sheet provides the default idle/head-turn animation, and clicking SpiderPet plays the second sheet's hanging animation once before returning to idle.
+SpiderPet is a small transparent desktop pet that reuses the supplied sprite assets. It has separate native desktop implementations for **Linux/Omarchy on Wayland** and **Windows 10/11**.
 
-## Supplied artwork — preserved unchanged
+## Artwork
 
-- `assets/sprites/SpiderMan_HeadTurn.png`: original first uploaded sprite sheet, preserved byte-for-byte.
-- `assets/sprites/SpiderMan_web.png`: original second uploaded hanging-animation sheet, preserved byte-for-byte.
-- `assets/sprites/head_turn/frame_001.png` through `frame_076.png`: extracted transparent frames from the first sheet.
-- `assets/sprites/hanging/frame_001.png` through `frame_077.png`: extracted transparent frames from the second sheet.
-- `assets/sprites/manifest.json` and `assets/sprites/hanging_manifest.json`: extraction manifests.
-- `docs/head_turn_contact_sheet.png`, `docs/hanging_contact_sheet.png`, and `docs/hanging_preview.gif`: inspection previews.
+- `assets/sprites/SpiderMan_HeadTurn.png` and `SpiderMan_web.png` are retained unchanged.
+- `assets/sprites/head_turn/` contains the 76 extracted idle/head-turn frames.
+- `assets/sprites/hanging/` contains the 77 extracted hanging frames.
+- The original sprite sheets and extracted PNG frames are not edited on disk. Scaling happens in memory with nearest-neighbour/fast interpolation.
 
-**No original sheet or extracted frame is recolored, redrawn, retouched, or resized on disk.** Runtime scaling creates cached in-memory copies with nearest-neighbour interpolation only.
+## Current behavior
 
-## Behavior
+1. SpiderPet appears near the top-right of the primary display and loops the head-turn sequence as its idle animation.
+2. Click the pet to shoot a web and descend toward the center of the primary display.
+3. The pet loops the hanging sequence until clicked again, then ascends to its original vertical position and returns to idle.
+4. Drag the pet with the left mouse button to reposition it. During the web/descent/ascent phases, mouse interactions are temporarily ignored.
 
-1. SpiderPet appears beside the top-right area of Waybar.
-2. The first sheet's extracted frames loop as the default idle/head-turn animation at 12 FPS.
-3. Click/tap the pet to play the second sheet's hanging animation once at 24 FPS. Drag with the left mouse button to reposition it; a small movement threshold distinguishes a drag from a click.
-4. When the hanging sequence finishes, SpiderPet returns to the first sheet's idle animation.
-5. No walking, sitting, jumping, web shooting, stats, menus, or other features yet.
+The Windows build uses a transparent, always-on-top Qt sprite window plus a mouse-transparent web overlay, so the web line can be drawn without intentionally capturing clicks outside the pet. The pet is positioned relative to the desktop, not attached to the Windows taskbar.
 
-The first sheet is treated as an animation sequence; a separate blink behavior should only be added later if the supplied frames clearly contain blink/closed-eye poses. Do not synthesize or alter frames to create a blink.
+## Windows 10/11
 
-## Run
+**Requirements:** 64-bit Python 3.10 or newer and an internet connection for the initial dependency installation.
+
+1. Extract the project ZIP to a normal writable folder.
+2. Double-click `setup_windows.bat`. It creates a local `.venv` and installs PySide6 Essentials.
+3. Double-click `run_windows.bat` to launch SpiderPet.
+4. To stop it, use `Ctrl+C` in the terminal window opened with the launcher, or end `python.exe` from Task Manager.
+
+Manual setup from PowerShell in the project directory:
+
+```powershell
+py -3 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements-windows.txt
+.\.venv\Scripts\python.exe main.py
+```
+
+Optional scale and FPS settings in PowerShell:
+
+```powershell
+$env:SPIDERPET_SCALE = "2"
+$env:SPIDERPET_IDLE_FPS = "12"
+$env:SPIDERPET_HANGING_FPS = "24"
+.\.venv\Scripts\python.exe main.py
+```
+
+The defaults are scale `1.75`, idle `12 FPS`, and hanging `24 FPS`. The scale is limited to `1.0`–`5.0`; FPS values are clamped by the application.
+
+### Optional Windows autostart
+
+After verifying the app works, press `Win+R`, enter `shell:startup`, and press Enter. Create a shortcut to `run_windows.bat` in the opened Startup folder. Remove that shortcut to disable autostart.
+
+## Linux / Omarchy / Hyprland
+
+The existing Linux implementation remains in `spiderpet/application.py` and uses GTK3, PyGObject, GdkPixbuf, Cairo and GtkLayerShell. Run it in the configured Omarchy environment with:
 
 ```bash
 python main.py
 ```
 
-Optional scaling (default 1.75x, slightly smaller than the first build):
+Optional environment settings:
 
 ```bash
-SPIDERPET_SCALE=3 python main.py
+SPIDERPET_SCALE=3 SPIDERPET_IDLE_FPS=8 SPIDERPET_HANGING_FPS=15 python main.py
 ```
 
-Optional frame rates:
+Windows uses PySide6 Essentials from `requirements-windows.txt`; Linux dependencies are system-provided by the existing Omarchy setup and are intentionally not replaced by the Windows requirements.
 
-```bash
-SPIDERPET_IDLE_FPS=8 SPIDERPET_HANGING_FPS=15 python main.py
-```
+## Troubleshooting
 
-Use `Ctrl+C` in the launching terminal to stop it.
-
-## Technical notes
-
-- GTK3 + PyGObject, GdkPixbuf and GtkLayerShell; no new dependencies added.
-- Transparent, undecorated overlay initially placed near the top-right. Dragging repositions it across the screen by updating GtkLayerShell margins.
-- All frames are loaded and scaled once at startup; GLib timeouts drive animation, with no busy polling or worker threads.
-- No package installation, sudo, desktop/system configuration changes, or Git commands.
-- If GTK or GtkLayerShell bindings are missing, report the exact error rather than installing anything.
-
-## Next phase
-
-First validate the animation and click interaction. Only after that, consider CPU/RAM indicators and other features. Keep the implementation small and avoid feature creep.
+- If Windows setup fails, confirm that 64-bit Python 3.10+ and the Python Launcher (`py`) are installed, then run `setup_windows.bat` again.
+- If the pet is missing, make sure the `assets` folder stays next to `main.py` and the entire project ZIP was extracted.
+- If the pet appears behind other windows, check Windows compatibility settings or whether another application forces an exclusive full-screen mode.
+- The Windows implementation has been statically checked in this package, but it still needs a runtime smoke test on a real Windows desktop; this Linux environment cannot validate Windows window-manager behavior.

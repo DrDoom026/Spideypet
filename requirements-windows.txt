@@ -1,0 +1,2 @@
+# Windows desktop overlay implementation. Python 3.10+ recommended.
+PySide6-Essentials>=6.8,<7

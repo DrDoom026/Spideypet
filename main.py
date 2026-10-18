@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
-"""SpiderPet Phase 1 entry point. No polling, threads, or runtime image processing."""
-from spiderpet.application import main
+"""SpiderPet entry point: Windows uses Qt; Linux/Omarchy uses GTK + GtkLayerShell."""
+import sys
+
+if sys.platform == "win32":
+    from spiderpet.windows_app import main
+else:
+    from spiderpet.application import main
 
 if __name__ == "__main__":
     raise SystemExit(main())
